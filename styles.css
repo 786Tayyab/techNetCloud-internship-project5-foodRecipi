@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffcc00;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+.navbar a{
+    margin-bottom: 0;
+    background-color: #ffe066;
+    color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+.navbar a:hover{
+    margin-bottom: 0;
+    background-color: #ffff1a;
+    color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+.navbarr{
+    font-size: 40px;
+}
+.hero-section {
+    background-image: url('image/image1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.about-section, .recipes-section, .contact-section {
+    padding: 60px 0;
+}
+
+.recipe-box {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-section form .form-control {
+    margin-bottom: 10px;
+}
+
+.contact-section form button {
+    background-color: #ffe066;
+    color: black;
+    border: none;
+}
+
+.contact-section form button:hover {
+    background-color: #ffff1a;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+
+@media (max-width: 1024px) {
+    .hero-section {
+        padding: 80px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 60px 0;
+    }
+
+    .recipe-box {
+        margin-bottom: 15px;
+    }
+}
